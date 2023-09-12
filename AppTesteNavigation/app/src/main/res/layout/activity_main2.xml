@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="40dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="36dp"
+        android:text="Tela Secundaria" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+
+    <Spinner
+        android:id="@+id/spnUsuarios"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="32dp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnSelecionar"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text="selecionar"
+            android:onClick="onClickSelecionar"/>
+
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="match_parent" />
+
+
+        <Button
+            android:id="@+id/btnVoltar"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:textSize="22dp"
+            android:text="voltar"
+            android:onClick="onClickVoltar"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
